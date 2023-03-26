@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.4.3)
-project(2021-Template CXX)
+project(23-PortedDIFUZE CXX)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_FLAGS "-O3 -pthread -Wno-unused-command-line-argument")
 
 # Use the llvm-config binary to get the information needed.
